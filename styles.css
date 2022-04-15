@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+.text-white {
+  color: white;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+.block {
+  display: block;
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.login {
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  margin-right: 50px;
+}
+
+.logo {
+  margin-right: 50px;
+}
+.padding {
+  padding: 10px 20px;
+}
+.noline {
+  text-decoration: none;
+}
+.head-btn {
+  background-color: #539d98;
+  border-radius: 20px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  padding: 12px 28px;
+  max-height: 43px;
+  min-width: 125px;
+}
+.hero-bg {
+  width: 100%;
+}
+section {
+  position: relative;
+}
+.hero-video {
+  width: 100%;
+  object-fit: cover;
+  height: 465px;
+  position: absolute;
+  top: -120px;
+  min-width: 425px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+
+  color: white;
+  margin: 0;
+}
+.text-brand-teal {
+  color: #90cac7;
+}
+.hero-text {
+  max-width: 540px;
+  position: relative;
+  top: 0;
+}
+.hero-text p {
+  max-width: 449px;
+  margin: 0;
+  margin-top: 30px;
+}
+.hero-text button {
+  margin-top: 30px;
+  padding: 6px 14px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  color: #539d98;
+  font-size: 18px;
+  height: 51px;
+  cursor: pointer;
+}
+.container {
+  max-width: 1200px;
+}
+.text-16px {
+  font-size: 16px;
+}
+.text-36px {
+  font-size: 36px;
+}
+.z-index {
+  z-index: 10;
+}
+.py-18 {
+  padding-top: 18px;
+}
+
+@media (min-width: 640px) {
+  .text-20px {
+    font-size: 20px;
+  }
+
+  .sm\:h-689px {
+    height: 689px;
+  }
+}
+@media (min-width: 768px) {
+  .md\:h-689px {
+    height: 689px;
+  }
+  .md\:text-60px {
+    font-size: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .md\:h-465 {
+    height: 465px;
+  }
+}
